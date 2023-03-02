@@ -5,17 +5,17 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "FSDS_NOV_deepCNNClassifier"
-AUTHOR_USER_NAME = "c17hawke"
-SRC_REPO = "deepClassifier"
-AUTHOR_EMAIL = "sunny.c17hawke@gmail.com"
+REPO_NAME = "insurence_price_prediction"
+AUTHOR_USER_NAME = "akhilpratap620"
+SRC_REPO = ""
+AUTHOR_EMAIL = "sakhilpratap620@gmail.com"
 
 setuptools.setup(
     name=SRC_REPO,
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for CNN app",
+    description="this is application regarding to predict insurence according to features",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",

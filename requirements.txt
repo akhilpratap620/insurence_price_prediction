@@ -1,4 +1,4 @@
-tensorflow
+sklearn
 dvc
 pandas
 notebook
